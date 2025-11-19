@@ -125,7 +125,7 @@ function App() {
 
       <section
         id="tools"
-        className="h-screen flex flex-col items-center justify-center"
+        className="h-screen w-full flex flex-col items-center justify-center"
       >
        <h2 className="text-5xl font-bold mb-12">Linguagens e Ferramentas</h2>
         <div className="flex flex-wrap justify-center gap-8">
