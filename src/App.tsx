@@ -12,7 +12,7 @@ type theme = "light" | "dark";
 const sectionIds = ["welcome", "whatIdo", "tools","contact"];
 
 function App() {
-  const [theme, setTheme] = useState<theme>("light");
+  const [theme, setTheme] = useState<theme>("dark");
   const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
 
   useEffect(() => {
@@ -95,8 +95,8 @@ function App() {
           <h1 
             className="
               font-extrabold text-8xl md:text-9xl mb-6 
-              drop-shadow-[0_0_10px_rgba(245,158,11,0.4)] 
-              dark:drop-shadow-[0_0_15px_rgba(255,255,150,0.3)]
+              drop-shadow-[0_0_10px_rgba(239,68,68,0.4)] 
+              dark:drop-shadow-[0_0_15px_rgba(255,82,82,0.3)]
             "
           >
             BEM VINDO
@@ -128,7 +128,7 @@ function App() {
         className="h-screen w-full flex flex-col items-center justify-center"
       >
        <h2 className="text-5xl font-bold mb-12">Linguagens e Ferramentas</h2>
-        <div className="flex flex-wrap justify-center gap-8">
+        <div className="w-full flex flex-wrap justify-center gap-8 px-4">
           <ChartRadarDots />
           <ToolsRadarChart />
         </div>

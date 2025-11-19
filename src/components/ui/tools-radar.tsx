@@ -30,13 +30,13 @@ const chartData = [
 const chartConfig = {
   level: {
     label: "Nível",
-    color: "hsl(54, 90%, 60%)",
+    color: "hsl(0 84.2% 60.2%)",
   },
 } satisfies ChartConfig
 
 export function ToolsRadarChart() {
   return (
-    <Card className="max-w-lg">
+    <Card className="w-full max-w-lg">
       <CardHeader className="items-center">
         <CardTitle>Tecnologias e Ferramentas</CardTitle>
         <CardDescription>

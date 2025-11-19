@@ -23,7 +23,7 @@ const chartData = [
   { skill: "C/C++", level: 60 },
   { skill: "Node.js", level: 80 },
   { skill: "Python", level: 70 },
-  { skill: "TypeScript", level: 85 },
+  { skill: "Ts", level: 85 },
   { skill: "SQL", level: 75 },
   { skill: "JavaScript", level: 85 },
   { skill: "Bash", level: 60 },
@@ -33,17 +33,17 @@ const chartData = [
 const chartConfig = {
   level: {
     label: "Nível",
-    color: "hsl(54, 90%, 60%)",
+    color: "hsl(0 84.2% 60.2%)",
   },
 } satisfies ChartConfig
 
 export function ChartRadarDots() {
   return (
- <Card className="max-w-lg">
+ <Card className="w-full max-w-lg">
       <CardHeader className="items-center">
         <CardTitle>Linguagens</CardTitle>
         <CardDescription>
-          Nível de proficiência nas principais linguagens de
+          Nível de proficiência nas principais linguagens
         </CardDescription>
       </CardHeader>
       <CardContent className="pb-4">
